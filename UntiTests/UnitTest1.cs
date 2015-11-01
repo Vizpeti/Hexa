@@ -59,12 +59,6 @@ namespace UntiTests
             new Sound("gy");
             new Sound("dzs");
             new Sound("x");
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void WrongSoundTest1()
-        {
             new Sound("y");
         }
 
